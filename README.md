@@ -48,23 +48,23 @@ Trueno Wheels is an e-commerce website dedicated to Hot Wheels collectors and ca
    npm install
 
 4. Set up environment variables by creating a .env file for the client, admin, and backend:
-Backend Environment Variables
+- **Backend Environment Variables**
 PORT=4000
 MONGO_URI="mongodb+srv://sandeshlawhale:treunowheels@cluster0.njcl9.mongodb.net"
 CLOUDINARY_API_KEY="579718727561466"
 CLOUDINARY_SECRET_KEY="tEPpnhvhT0y0rotFuL1dgf-XkvI"
 CLOUDINARY_NAME="dxl29dtzo"
 JWT_SECRET="truenowheels"
-FRONTEND Environment Variables
+- **FRONTEND Environment Variables**
 MONGO_URI=your_mongodb_uri
 PORT=5000
-Admin Environment Variables
+- **Admin Environment Variables**
 VITE_BACKEND_URL="http://localhost:4000"
 
-6. Run the development server:
+5. Run the development server:
    ```bash
    npm run dev
-7. Open your browser at http://localhost:5000 to view the website.
+6. Open your browser at http://localhost:5000 to view the website.
 
 ## Usage
 - Browse the latest collections and merchandise.
