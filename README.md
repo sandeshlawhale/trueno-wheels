@@ -57,7 +57,7 @@ CLOUDINARY_NAME="dxl29dtzo"
 JWT_SECRET="truenowheels"
 - **FRONTEND Environment Variables**
 MONGO_URI=your_mongodb_uri
-PORT=5000
+PORT=port no.
 - **Admin Environment Variables**
 VITE_BACKEND_URL="http://localhost:4000"
 
