@@ -49,17 +49,26 @@ Trueno Wheels is an e-commerce website dedicated to Hot Wheels collectors and ca
 
 4. Set up environment variables by creating a .env file for the client, admin, and backend:
 - **Backend Environment Variables**
-PORT=4000
-MONGO_URI="mongodb+srv://sandeshlawhale:treunowheels@cluster0.njcl9.mongodb.net"
-CLOUDINARY_API_KEY="579718727561466"
-CLOUDINARY_SECRET_KEY="tEPpnhvhT0y0rotFuL1dgf-XkvI"
-CLOUDINARY_NAME="dxl29dtzo"
-JWT_SECRET="truenowheels"
+  
+PORT=your_port_number
+
+MONGO_URI="your_mongodb_uri"
+
+CLOUDINARY_API_KEY="your_cloudinary_api_key"
+
+CLOUDINARY_SECRET_KEY="your_cloudinary_secret_key"
+
+CLOUDINARY_NAME="your_cloudinary_name"
+
+JWT_SECRET="your_jwt_secret"
+
 - **FRONTEND Environment Variables**
-MONGO_URI=your_mongodb_uri
-PORT=port no.
+
+VITE_BACKEND_URL="your_backend_url".
+
 - **Admin Environment Variables**
-VITE_BACKEND_URL="http://localhost:4000"
+
+VITE_BACKEND_URL="your_backend_url"
 
 5. Run the development server:
    ```bash
