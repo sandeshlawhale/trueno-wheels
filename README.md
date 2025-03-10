@@ -61,15 +61,15 @@ PORT=5000
 Admin Environment Variables
 VITE_BACKEND_URL="http://localhost:4000"
 
-5. Run the development server:
+6. Run the development server:
    ```bash
    npm run dev
-6. Open your browser at http://localhost:5000 to view the website.
+7. Open your browser at http://localhost:5000 to view the website.
 
 ## Usage
-- **Browse the latest collections and merchandise.
-- **View detailed specifications of each car model.
-- **Add cars to your collection or purchase branded merchandise.
+- Browse the latest collections and merchandise.
+- View detailed specifications of each car model.
+- Add cars to your collection or purchase branded merchandise.
 
 ## Contributing
 This project is for personal development, and some features might not be fully functional at the moment. However, I plan to make improvements as I get more time. Feel free to contribute to the project and help make it better!
