@@ -109,69 +109,65 @@ const Carousel = () => {
                 key={`slide_${index}`}
                 className="w-full h-full border-none outline-none cursor-pointer"
               >
-                <Link to={`/product/${data._id}`}>
-                  {/* src image */}
-                  <img
-                    src={data.src}
-                    alt=""
-                    className="absolute w-full h-full inset-0 object-cover"
-                  />
+                {/* src image */}
+                <img
+                  src={data.src}
+                  alt=""
+                  className="absolute w-full h-full inset-0 object-cover"
+                />
 
-                  {/* overlay */}
-                  <div
-                    id="carOverlay"
-                    className="absolute inset-0 sm:hidden group-hover:block transition-colors ease-in-out scale-150"
-                    style={{
-                      background:
-                        "linear-gradient(to bottom, #000 ,Transparent, #000 )",
-                    }}
-                  ></div>
+                {/* overlay */}
+                <div
+                  id="carOverlay"
+                  className="absolute inset-0 sm:hidden group-hover:block transition-colors ease-in-out scale-150"
+                  style={{
+                    background:
+                      "linear-gradient(to bottom, #000 ,Transparent, #000 )",
+                  }}
+                ></div>
 
-                  {/*  Name Details */}
-                  <div className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center ">
-                    <p
-                      id="carBrand"
-                      className="text-gray-50 press-start-2p-regular text-5xl sm:hidden group-hover:block sm:opacity-0"
-                    >
-                      {data.brand}
-                    </p>
-                    <p
-                      id="carName"
-                      className="text-gray-50 text-lg tracking-wider sm:hidden group-hover:block sm:opacity-0"
-                    >
-                      {data.name}
-                    </p>
-                    <p
-                      id="carName"
-                      className="text-gray-50/50 text-sm tracking-wider sm:hidden group-hover:block sm:opacity-0"
-                    >
-                      Limited Edition
-                    </p>
-                  </div>
-
-                  {/* Model Details */}
-                  <div
-                    id="carDetails"
-                    className="absolute right-16 top-12  hidden sm:group-hover:block "
+                {/*  Name Details */}
+                <div className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center ">
+                  <p
+                    id="carBrand"
+                    className="text-gray-50 press-start-2p-regular text-5xl sm:hidden group-hover:block sm:opacity-0"
                   >
-                    <p className="text-gray-50 text-xs">
-                      <span className="text-gray-50/50"> Model: </span>
-                      {data.name}
-                    </p>
-                    <p className="text-gray-50 text-xs">
-                      <span className="text-gray-50/50"> Year: </span>{" "}
-                      {data.year}
-                    </p>
-                    <p className="text-gray-50 text-xs">
-                      <span className="text-gray-50/50"> Type: </span>{" "}
-                      {data.type}
-                    </p>
-                    <p className="text-gray-50 text-xs">
-                      <span className="text-gray-50/50"> Scale: </span>{" "}
-                      {data.scale}
-                    </p>
-                  </div>
-                </Link>
+                    {data.brand}
+                  </p>
+                  <p
+                    id="carName"
+                    className="text-gray-50 text-lg tracking-wider sm:hidden group-hover:block sm:opacity-0"
+                  >
+                    {data.name}
+                  </p>
+                  <p
+                    id="carName"
+                    className="text-gray-50/50 text-sm tracking-wider sm:hidden group-hover:block sm:opacity-0"
+                  >
+                    Limited Edition
+                  </p>
+                </div>
+
+                {/* Model Details */}
+                <div
+                  id="carDetails"
+                  className="absolute right-16 top-12  hidden sm:group-hover:block "
+                >
+                  <p className="text-gray-50 text-xs">
+                    <span className="text-gray-50/50"> Model: </span>
+                    {data.name}
+                  </p>
+                  <p className="text-gray-50 text-xs">
+                    <span className="text-gray-50/50"> Year: </span> {data.year}
+                  </p>
+                  <p className="text-gray-50 text-xs">
+                    <span className="text-gray-50/50"> Type: </span> {data.type}
+                  </p>
+                  <p className="text-gray-50 text-xs">
+                    <span className="text-gray-50/50"> Scale: </span>{" "}
+                    {data.scale}
+                  </p>
+                </div>
               </SwiperSlide>
             </>
           );

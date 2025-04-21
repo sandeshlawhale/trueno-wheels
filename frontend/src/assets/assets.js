@@ -95,8 +95,8 @@ export const HeroData = [
   {
     _id: "aaaaa",
     brand: "Porsche",
-    name: " 911 GT3 RS",
-    src: porsche911,
+    name: " 911 turbo",
+    src: turbo1,
     year: "1975",
     type: "Sports Car",
     scale: "1:64",
