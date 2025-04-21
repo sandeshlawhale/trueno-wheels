@@ -13,7 +13,7 @@ const Orders = () => {
       }
 
       const response = await axios.post(
-        BackendUrl + "/api/order/user-order-list",
+        BackendUrl + "api/order/user-order-list",
         {},
         { headers: { token } }
       );
