@@ -30,11 +30,11 @@ app.use(
 );
 
 // endpoints
-app.use("api/user", userRouter);
-app.use("api/product", productRouter);
-app.use("api/cart", cartRouter);
-app.use("api/order", orderRouter);
-app.get("api/test", (req, res) => {
+app.use("/api/user", userRouter);
+app.use("/api/product", productRouter);
+app.use("/api/cart", cartRouter);
+app.use("/api/order", orderRouter);
+app.get("/api/test", (req, res) => {
   res.send("Test API Working");
 });
 
