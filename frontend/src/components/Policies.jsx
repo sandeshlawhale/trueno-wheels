@@ -2,32 +2,32 @@ import React from "react";
 
 const policyContent = [
   {
-    img: "src/assets/icon_shipped.png",
+    img: "/assets/icon_shipped.png",
     title: "Free Shipping",
     Desc: "on orders above $20",
   },
   {
-    img: "src/assets/icon_product-return.png",
+    img: "/assets/icon_product-return.png",
     title: "Easy Returns",
     Desc: "Hassle-free returns",
   },
   {
-    img: "src/assets/icon_credit-card.png",
+    img: "/assets/icon_credit-card.png",
     title: "Secure Payments",
     Desc: "100% secure payments",
   },
   {
-    img: "src/assets/icon_original.png",
+    img: "/assets/icon_original.png",
     title: "Authenticity",
     Desc: "Genuine models",
   },
   {
-    img: "src/assets/icon_diamond.png",
+    img: "/assets/icon_diamond.png",
     title: "Exclusive",
     Desc: "Rare collections",
   },
   {
-    img: "src/assets/icon_customer-support.png",
+    img: "/assets/icon_customer-support.png",
     title: "24/7 Support",
     Desc: "We're here to help!",
   },

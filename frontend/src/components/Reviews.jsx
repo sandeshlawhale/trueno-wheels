@@ -14,7 +14,7 @@ const reviewContent = [
     rating: 5,
     review:
       "I loved the exclusive collection at Trueno Wheels. The models are amazing!",
-    img: "src/assets/user_tyler.jpg",
+    img: "/assets/user_tyler.jpg",
   },
   {
     id: 2,
@@ -22,7 +22,7 @@ const reviewContent = [
     location: "Mumbai, India",
     rating: 4.5,
     review: "Great quality and fast delivery! Highly recommend this store.",
-    img: "src/assets/user_sharukh.jpg",
+    img: "/assets/user_sharukh.jpg",
   },
   {
     id: 3,
@@ -31,7 +31,7 @@ const reviewContent = [
     rating: 5,
     review:
       "The best place to find rare Hot Wheels models. I’m impressed with the authenticity!",
-    img: "src/assets/user_carlos.jpg",
+    img: "/assets/user_carlos.jpg",
   },
   {
     id: 4,
@@ -40,7 +40,7 @@ const reviewContent = [
     rating: 4,
     review:
       "Love the designs and the attention to detail. Couldn’t be happier with my purchase.",
-    img: "src/assets/user_emily.jpg",
+    img: "/assets/user_emily.jpg",
   },
   {
     id: 5,
@@ -49,7 +49,7 @@ const reviewContent = [
     rating: 5,
     review:
       "Trueno Wheels has an incredible selection of limited editions. My go-to for collectibles!",
-    img: "src/assets/user_akira.jpg",
+    img: "/assets/user_akira.jpg",
   },
   {
     id: 6,
@@ -58,7 +58,7 @@ const reviewContent = [
     rating: 4.8,
     review:
       "Fantastic service and great prices. The newsletter keeps me updated on new arrivals!",
-    img: "src/assets/user_liam.jpg",
+    img: "/assets/user_liam.jpg",
   },
 ];
 
