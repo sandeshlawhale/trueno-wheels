@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   proxy: {
     "/api": {
-      target: "https://trueno-backend.vercel.app", // Replace with your actual backend URL
+      target: process.env.VITE_BACKEND_URL, // Replace with your actual backend URL
       changeOrigin: true, // Needed for virtual hosted sites
       secure: false, // Set this to false if using http for local testing
       // rewrite: (path) => path.replace(/^\/api/, ""), // Removes the /api prefix when proxying
