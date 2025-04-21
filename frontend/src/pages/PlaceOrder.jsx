@@ -101,7 +101,7 @@ const PlaceOrder = () => {
             value={formData.firstName}
             name="firstName"
             placeholder="First Name"
-            className="w-full px-3.5 py-1.5 rounded border-gray-400 border text-black"
+            className="capitalize w-full px-3.5 py-1.5 rounded border-gray-400 border text-black"
           />
           <input
             required
@@ -110,7 +110,7 @@ const PlaceOrder = () => {
             onChange={onChangeHandler}
             value={formData.lastName}
             name="lastName"
-            className="w-full px-3.5 py-1.5 rounded border-gray-400 border text-black"
+            className="capitalize w-full px-3.5 py-1.5 rounded border-gray-400 border text-black"
           />
         </div>
         <input
@@ -120,7 +120,7 @@ const PlaceOrder = () => {
           onChange={onChangeHandler}
           value={formData.email}
           name="email"
-          className="w-full px-3.5 py-1.5 rounded border-gray-400 border text-black"
+          className="capitalize w-full px-3.5 py-1.5 rounded border-gray-400 border text-black"
         />
         <input
           required
@@ -129,7 +129,7 @@ const PlaceOrder = () => {
           onChange={onChangeHandler}
           value={formData.street}
           name="street"
-          className="w-full px-3.5 py-1.5 rounded border-gray-400 border text-black"
+          className="capitalize w-full px-3.5 py-1.5 rounded border-gray-400 border text-black"
         />
         <div className="flex gap-3 w-full">
           <input
@@ -139,7 +139,7 @@ const PlaceOrder = () => {
             onChange={onChangeHandler}
             value={formData.city}
             name="city"
-            className="w-full px-3.5 py-1.5 rounded border-gray-400 border text-black"
+            className="capitalize w-full px-3.5 py-1.5 rounded border-gray-400 border text-black"
           />
           <input
             required
@@ -148,7 +148,7 @@ const PlaceOrder = () => {
             onChange={onChangeHandler}
             value={formData.state}
             name="state"
-            className="w-full px-3.5 py-1.5 rounded border-gray-400 border text-black"
+            className="capitalize w-full px-3.5 py-1.5 rounded border-gray-400 border text-black"
           />
         </div>
         <div className="flex gap-3 w-full">
@@ -159,7 +159,7 @@ const PlaceOrder = () => {
             onChange={onChangeHandler}
             value={formData.zipcode}
             name="zipcode"
-            className="w-full px-3.5 py-1.5 rounded border-gray-400 border text-black"
+            className="capitalize w-full px-3.5 py-1.5 rounded border-gray-400 border text-black"
           />
           <input
             required
@@ -168,7 +168,7 @@ const PlaceOrder = () => {
             onChange={onChangeHandler}
             value={formData.country}
             name="country"
-            className="w-full px-3.5 py-1.5 rounded border-gray-400 border text-black"
+            className="capitalize w-full px-3.5 py-1.5 rounded border-gray-400 border text-black"
           />
         </div>
         <input
@@ -178,7 +178,7 @@ const PlaceOrder = () => {
           onChange={onChangeHandler}
           value={formData.phone}
           name="phone"
-          className="w-full px-3.5 py-1.5 rounded border-gray-400 border text-black"
+          className="capitalize w-full px-3.5 py-1.5 rounded border-gray-400 border text-black"
         />
       </div>
 

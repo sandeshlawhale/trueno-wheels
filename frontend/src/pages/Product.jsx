@@ -36,7 +36,7 @@ const Product = () => {
               alt=""
               className="w-full sm:w-[80%] object-cover"
             />
-            <div className="grid gap-4 grid-cols-4 sm:grid-cols-1 sm:grid-rows-4">
+            <div className="w-full sm:w-[20%] grid gap-4 grid-cols-4 sm:grid-cols-1 sm:grid-rows-4">
               {productData?.images.map((img, index) => {
                 return (
                   <img
