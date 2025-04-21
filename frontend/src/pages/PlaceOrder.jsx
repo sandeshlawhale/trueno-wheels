@@ -120,7 +120,7 @@ const PlaceOrder = () => {
           onChange={onChangeHandler}
           value={formData.email}
           name="email"
-          className="capitalize w-full px-3.5 py-1.5 rounded border-gray-400 border text-black"
+          className="w-full px-3.5 py-1.5 rounded border-gray-400 border text-black"
         />
         <input
           required
