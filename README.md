@@ -18,8 +18,6 @@ Trueno Wheels is an e-commerce website dedicated to Hot Wheels collectors and ca
 - **Latest Arrivals**: Showcasing the newest Hot Wheels models.
 - **Detailed Product Pages**: Comprehensive information on model name, year, car type, price, scale, color, limited editions, release date, availability, dimensions, and rating.
 - **Social Media Integration**: Posts about *Car of the Day/Month/Year* and comparisons with real-life counterparts.
-- **Merchandise Section**: Custom branded T-shirts, caps, keychains, and more.
-- **Blog Section**: Articles on car history, iconic models, and car culture insights.
 - **Responsive Design**: Optimized for desktop and mobile devices.
 
 ## Tech Stack
