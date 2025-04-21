@@ -24,8 +24,7 @@ Trueno Wheels is an e-commerce website dedicated to Hot Wheels collectors and ca
 - **Frontend**: React.js, TailwindCSS, Framer Motion
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB
-- **Real-time Features**: Socket.IO for live updates
-- **Hosting**: Vercel for frontend, Heroku for backend
+- **Hosting**: Vercel for frontend and backend
 
 ## Getting Started
 
@@ -65,7 +64,7 @@ Trueno Wheels is an e-commerce website dedicated to Hot Wheels collectors and ca
 5. Run the development server:
    ```bash
    npm run dev
-6. Open your browser at http://localhost:5000 to view the website.
+6. Open your browser at http://localhost:PORT to view the website.
 
 ## Usage
 - Browse the latest collections and merchandise.
